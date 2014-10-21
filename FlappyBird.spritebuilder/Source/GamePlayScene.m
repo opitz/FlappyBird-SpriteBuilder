@@ -18,7 +18,7 @@
     timeSinceObstacle += delta; // delta is approximately 1/60th of a second
     
     // Check to see if two seconds have passed
-    if (timeSinceObstacle > 0.5f)
+    if (timeSinceObstacle > 0.9f)
     {
         // Add a new obstacle
         [self addObstacle];
